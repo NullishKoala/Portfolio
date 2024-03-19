@@ -12,7 +12,7 @@ Welcome to my frontend portfolio.
 🎨 color pallette: https://shorturl.at/hsBC2
 
 The original FreeCodeCamp's Camper Cafe menu:
-![Camper Cafe menu](https://github.com/NullishKoala/Portfolio/blob/main/1.%20The%20Pit%20Cafe/CamperCafeMenu.png)
+![Camper Cafe menu]()
 
 The Pit Cafe menu designed by me:
-![Pit Cafe menu](https://github.com/NullishKoala/Portfolio/blob/main/1.%20The%20Pit%20Cafe/PitCafeMenu.png)
+![Pit Cafe menu]()
