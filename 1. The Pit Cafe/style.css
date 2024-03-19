@@ -1,0 +1,120 @@
+body {
+    background-color: #ffd038;
+    margin: 0;
+    padding: 0;
+    color: #311818;
+    max-height: 100vh;
+}
+
+.circle {
+    position: absolute;
+    z-index: -1; /* Make sure the circle is always on bottom */
+    border-radius: 50%;
+    background-color: #fcf4ae;
+}
+
+.circle.one {
+    height: 150px;
+    width: 150px;
+    left: 83vw;
+    top: 3vh;
+}
+
+.circle.two {
+    height: 70px;
+    width: 70px;
+    left: 3vw;
+    top: 15vh
+}
+
+.circle.three {
+    height: 25px;
+    width: 25px;
+    left: 95vw;
+    top: 65vh
+}
+
+.circle.four {
+    height: 150px;
+    width: 150px;
+    left: 6vw;
+    top: 50vh
+}
+
+.menu {
+    background-color: #FFF7D4;
+    max-width: 1200px;
+    margin: 4% auto 2.5%; 
+    box-shadow: 15px 15px 55px black;
+    text-align: center; 
+    /* applies both to text and div */
+}
+
+.menu-left, .menu-right {
+    display: inline-block;
+    width: 47%;
+    vertical-align: top;
+    padding: 4vh 0;
+}
+
+/* LEFT SIDE */
+
+.menu-left div {
+    margin: 1vh 0;
+}
+
+.treat-yo-self-image {
+    width: 55%;
+    border: solid 2px #311818;
+    min-width: 40vh;
+}
+
+h1 {font-size: 2.5rem;
+    background:#ffd038;
+    margin: 3vh 10vh;
+    line-height: 80%;
+} 
+
+.established {font-style: italic;
+font-size: 1rem;
+margin: 0px auto}
+
+
+/* RIGHT SIDE */
+
+h2 {font-size: 2rem;
+    background:#ffd038;
+    line-height: 80%;
+    margin: 2vh 10vh;
+}
+
+.savory-title, .desserts-title {font-size: 1.5rem; background:#ffd038;
+    line-height: 80%;
+    margin: 3vh 10vh;
+}
+
+.item p{display: inline-block;
+margin: 0.7vh;
+}
+
+.savory, .dessert {text-align: left;
+    width: 70%
+};
+
+.price {text-align: right; width: 30%} 
+
+hr {
+    background-color: hsl(0, 11%, 45%);
+    border-color: hsl(0, 11%, 45%);
+    padding: 200px auto;
+}
+
+h1, h2, .savory-title, .desserts-title, footer{text-align: center; font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer div{
+    font-size: small;
+    color:#fcf4ae;
+}
