@@ -2,7 +2,15 @@
 
 Welcome to my frontend portfolio.
 
-1. The Pit Cafe menu.<br>
+2. Pick A Pickle<br>
+
+💽 vanilla JS, HTML, CSS: I played with canvas and picking different colours of the markers for drawing.
+🖼 image and ✍ copy are my own creations,
+🥒 inspired by Rick and Morty series.
+
+![Pick A Pickle](https://github.com/NullishKoala/Portfolio/blob/master/2.%20Pick%20a%20Pickle/PickAPickle.png)
+
+1. The Pit Cafe menu<br>
 
 1️⃣ Inspiration: the original freeCodeCamp's Camper Cafe menu,<br>
 2️⃣ The design I've recreated: Freepik's https://shorturl.at/GM289,<br>
@@ -12,7 +20,7 @@ Welcome to my frontend portfolio.
 🎨 color pallette: https://shorturl.at/hsBC2
 
 The original FreeCodeCamp's Camper Cafe menu:
-![Camper Cafe menu]()
+![Camper Cafe menu](https://github.com/NullishKoala/Portfolio/blob/master/1.%20The%20Pit%20Cafe/CamperCafeMenu.png)
 
 The Pit Cafe menu designed by me:
-![Pit Cafe menu]()
+![Pit Cafe menu](https://github.com/NullishKoala/Portfolio/blob/master/1.%20The%20Pit%20Cafe/PitCafeMenu.png)
