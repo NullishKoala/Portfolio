@@ -1,0 +1,142 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(skate-form-bgn.png);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#container {
+  flex: 1;
+  max-width: 30vw;
+  margin: 10vh auto;
+  background-color: rgba(61, 51, 252, 0.715);
+  border-radius: 5px;
+  box-shadow: 10px 6px 10px rgba(10, 9, 9, 0.66);
+  padding: 35px 25px;
+  color: rgb(222, 232, 240);
+}
+
+fieldset {
+  border: none;
+  border-bottom: 1px solid rgba(222, 232, 240, 0.482);
+  margin: 15px 0;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+legend {
+  padding: 0;
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+#personal-information input,
+#other-specify {
+  display: block;
+  width: 98%;
+  margin: 5px 0;
+  min-height: 1.5rem;
+  border-radius: 5px;
+  text-indent: 5px;
+  font-size: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#other-specify {
+  width: 100%;
+  min-height: 2em;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+#dropdown {
+  width: 100%;
+  min-height: 1.8rem;
+  border-radius: 5px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  text-indent: 5px;
+}
+
+#diet label,
+#position label {
+  margin: 2px 0;
+  min-height: 1.5em;
+  display: inline-block;
+  width: 100%;
+  align-content: center;
+}
+
+textarea {
+  width: 100%;
+  min-height: 70px;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+select:invalid {
+  color: gray;
+}
+
+::placeholder {
+  opacity: 1; /* Firefox */
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  text-indent: 5px;
+}
+
+::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  text-indent: 5px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+}
+
+button {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.1rem;
+  width: 95%;
+  padding: 5px 0;
+  background-color: rgb(61, 51, 252);
+  color: rgb(222, 232, 240);
+
+  border-radius: 5px;
+  margin: 10px;
+  min-height: 1.5em;
+  border-color: rgb(222, 232, 240);
+}
+
+button:hover {
+  box-shadow: 5px 3px 5px rgb(61, 51, 252);
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(61, 51, 252);
+  font-family: "Josefin Sans", sans-serif;
+}

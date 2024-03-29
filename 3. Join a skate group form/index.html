@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Roller Derby Game Survey</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="title">Registration form</h1>
+      <h2 id="description">Join our roller skating group!</h2>
+      <form method="post" action="" id="survey-form">
+        <fieldset id="personal-information">
+          <legend>Personal information:</legend>
+          <label for="name" id="name-label">Your first name: </label>
+          <input
+            name="name"
+            id="name"
+            type="text"
+            required
+            placeholder="Enter your name"
+          />
+          <label for="last-name" id="last-name-label">Your last name: </label>
+          <input
+            name="last-name"
+            id="last-name"
+            type="text"
+            required
+            placeholder="Enter your last name"
+          />
+          <label for="number" id="number-label">Your age: </label>
+          <input
+            name="number"
+            id="number"
+            type="number"
+            min="18"
+            max="99"
+            placeholder="Age"
+          />
+          <label for="email" id="email-label"
+            >Your e-mail:
+            <input
+              name="email"
+              id="email"
+              type="email"
+              required
+              placeholder="Enter your e-mail"
+          /></label>
+        </fieldset>
+        <fieldset>
+          <legend>Current league (if applies):</legend>
+          <select id="dropdown" name="league" required>
+            <option value="" selected disabled>(select option)</option>
+            <option value="WWDL">Worst Warsaw Derby League</option>
+            <option value="PRDL">Poznan Roller Derby League</option>
+            <option value="TRDL">ThreeCity Roller Derby League</option>
+            <option value="SWDL">Smokin' Wheels Roller Derby League</option>
+            <option value="HRDL">Hellcats Roller Derby League</option>
+            <option value="none">None</option>
+          </select>
+        </fieldset>
+        <fieldset id="diet">
+          <legend>Dietary restrictions:</legend>
+          <label for="vegetarian"
+            ><input
+              type="radio"
+              id="vegetarian"
+              value="vegetarian"
+              name="diet"
+            />Vegetarian</label
+          >
+          <label for="vegan"
+            ><input
+              type="radio"
+              id="vegan"
+              value="vegan"
+              name="diet"
+            />Vegan</label
+          >
+          <label for="none"
+            ><input
+              type="radio"
+              id="none"
+              value="none"
+              name="diet"
+            />None</label
+          >
+          <label for="other">
+            <input
+              type="radio"
+              id="other-diet"
+              value="other"
+              name="diet"
+            />Other:
+          </label>
+          <input
+            type="text"
+            name="other-diet"
+            id="other-specify"
+            placeholder="Please specify:"
+          />
+        </fieldset>
+        <fieldset id="position">
+          <legend>
+            Positions you're interested in (check as many as you want):
+          </legend>
+          <label for="skater"
+            ><input
+              name="position"
+              id="skater"
+              value="skater"
+              type="checkbox"
+            />Skater</label
+          >
+          <label for="so"
+            ><input
+              name="position"
+              id="so"
+              value="so"
+              type="checkbox"
+            />SO</label
+          >
+          <label for="nso"
+            ><input
+              name="position"
+              id="nso"
+              value="nso"
+              type="checkbox"
+            />NSO</label
+          >
+          <label for="merch"
+            ><input
+              name="position"
+              id="merch"
+              value="merch"
+              type="checkbox"
+            />Merch</label
+          >
+          <label for="coach"
+            ><input
+              name="position"
+              id="coach"
+              value="coach"
+              type="checkbox"
+            />Coach</label
+          >
+          <label for="other"
+            ><input
+              name="position"
+              id="other"
+              value="other"
+              type="checkbox"
+            />Other</label
+          >
+        </fieldset>
+        <fieldset>
+          <legend>Comments and suggestions:</legend>
+          <textarea> </textarea>
+        </fieldset>
+        <fieldset>
+          <label for="terms"
+            ><input type="checkbox" name="terms" id="terms" required /> I accept
+            terms and conditions.</label
+          >
+        </fieldset>
+        <button id="submit">Submit</button>
+      </form>
+    </div>
+    <footer>
+      <p>Github: NullishKoala</p>
+    </footer>
+  </body>
+</html>
