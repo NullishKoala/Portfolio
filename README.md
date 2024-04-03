@@ -1,6 +1,13 @@
 # Portfolio
 
-Welcome to my frontend portfolio.
+Welcome to my frontend portfolio. Below you'll find my own small projects I build for fun as to keep my frontend coding skills fresh.
+They are organised from oldest to latest. 
+I use vanilla JS, HTML, CSS, design my own graphics, write my own copy and utlise opensource fonts and icons. 
+
+3. Join a roller skating club
+
+
+
 
 2. Pick A Pickle<br>
 
