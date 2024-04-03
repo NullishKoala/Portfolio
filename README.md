@@ -1,13 +1,15 @@
 # Portfolio
 
 Welcome to my frontend portfolio. Below you'll find my own small projects I build for fun as to keep my frontend coding skills fresh.
-They are organised from oldest to latest. 
-I use vanilla JS, HTML, CSS, design my own graphics, write my own copy and utlise opensource fonts and icons. 
+They are organised from oldest to latest.
+I use vanilla JS, HTML, CSS, design my own graphics, write my own copy and utlise opensource fonts and icons.
 
 3. Join a roller skating club
 
-
-
+💫 Built with pure HTML + CSS
+💅 Images (created in Canva) and ✍ copy are entirely my own, as always.
+💡 Inspiration came from the countless roller skating events, roller derby games, tournaments, tripleheaders, and championships I've participated in, attended, volunteered at, and organized throughout my sports career. 🎖🏆
+![Join a roller skating event]()
 
 2. Pick A Pickle<br>
 
@@ -18,7 +20,7 @@ I use vanilla JS, HTML, CSS, design my own graphics, write my own copy and utlis
 Here's a screenshot:
 ![Pick A Pickle](https://github.com/NullishKoala/Portfolio/blob/master/2.%20Pick%20a%20Pickle/PickAPickle.png)
 
-A videoclip of how it works can be found in the folder.
+A videoclip of how it works is ![here].
 
 1. The Pit Cafe menu<br>
 
