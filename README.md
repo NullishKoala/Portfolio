@@ -9,7 +9,7 @@ I use vanilla JS, HTML, CSS, design my own graphics, write my own copy and utlis
 💫 Built with pure HTML + CSS
 💅 Images (created in Canva) and ✍ copy are entirely my own, as always.
 💡 Inspiration came from the countless roller skating events, roller derby games, tournaments, tripleheaders, and championships I've participated in, attended, volunteered at, and organized throughout my sports career. 🎖🏆
-![Join a roller skating event]()
+![Join a roller skating event](https://github.com/NullishKoala/Portfolio/blob/master/3.%20Join%20a%20skate%20group%20form/Join%20a%20roller%20skating%20club.png)
 
 2. Pick A Pickle<br>
 
@@ -20,7 +20,7 @@ I use vanilla JS, HTML, CSS, design my own graphics, write my own copy and utlis
 Here's a screenshot:
 ![Pick A Pickle](https://github.com/NullishKoala/Portfolio/blob/master/2.%20Pick%20a%20Pickle/PickAPickle.png)
 
-A videoclip of how it works is ![here].
+A videoclip of how it works is ![here](https://github.com/NullishKoala/Portfolio/blob/master/2.%20Pick%20a%20Pickle/PickAPickle.mp4).
 
 1. The Pit Cafe menu<br>
 
