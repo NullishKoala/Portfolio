@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=M+PLUS+2:wght@100..900&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>yuuyuu restaurant</title>
+  </head>
+  <body>
+    <header>
+      <div id="container-header" class="fade-in">
+        <a href="#section-locations" class="header-item">yuuyuu ny</a>
+        <a href="#section-locations" class="header-item" id="yuuyuu-warsaw"
+          >yuuyuu warsaw</a
+        >
+        <a href="#section-locations" class="header-item">yuuyuu napoli</a>
+        <label for="check" id="dropdown-menu-icon">
+          <input type="checkbox" id="check" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      <div id="dropdown-menu-div">
+        <ul id="dropdown-menu">
+          <li>
+            <a href="#section-about-us" class="dropdown-menu-item">about us</a>
+          </li>
+          <li><a href="#section-menu" class="dropdown-menu-item">menu</a></li>
+          <li>
+            <a href="#section-bookings" class="dropdown-menu-item">bookings</a>
+          </li>
+          <li>
+            <a href="#section-locations" class="dropdown-menu-item"
+              >locations</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="container">
+      <section id="section-main">
+        <div class="main-container">
+          <img
+            src="assets/main-img/main-img-left.jpg"
+            alt="restaurant interior"
+            id="main-img-left"
+          />
+          <img
+            src="assets/main-img/main-img-right.jpg"
+            alt="a fancy dish"
+            id="main-img-right"
+          />
+          <h1 id="restaurant-name">YUUYUU</h1>
+          <img src="assets/logo/logo-bw.png" alt="logo" id="logo" />
+          <h1 id="restaurant-name-jp">ゆうゆう</h1>
+        </div>
+      </section>
+    </div>
+    <section id="section-about-us">
+      <img src="assets/logo/logo-wb.png" alt="" class="about-us-section-icon" />
+      <h2 class="section-title">about yuuyuu</h2>
+      <div class="about-us-container">
+        <div class="about-us-card">
+          <img src="assets/icons/rules.svg" class="about-us-icon" alt="" />
+          <h3>our story</h3>
+          <p>
+            Why did we choose <b>yuuyuu</b> as the name of our restaurant?
+            Because in Japanese, ゆうゆう <b>yuuyuu</b> means 'quiet, calm,
+            leisurely,' while ゆうゆうじてき 'yuuyuujiteki' means 'living
+            quietly and comfortably free from worldly cares'. We want our guests
+            to feel that way when they visit <b>yuuyuu</b>.
+          </p>
+        </div>
+        <div class="about-us-card">
+          <img src="assets/icons/table.svg" class="about-us-icon" alt="" />
+          <h3>bookings</h3>
+          <p>
+            At <b>yuuyuu</b> we have an easy but strict rule - we book only
+            single tables. Every table is located in a separate booth, so our
+            guest can enjoy a meal in peace. We strive to make <b>yuuyuu</b> an
+            inclusive place. Please let us know if you require adjustments to
+            the light, noise, or temperature at your booth.
+          </p>
+          <a href="#section-bookings">
+            <button id="about-us-booking-btn">book a table now</button></a
+          >
+        </div>
+        <div class="about-us-card">
+          <img src="assets/icons/telephone.svg" class="about-us-icon" alt="" />
+          <h3>device policy</h3>
+          <p>
+            We want our guests to focus on enjoying their meals without any
+            distractions, so there is another important rule to follow when you
+            dine at <b>yuuyuu</b> - no electronic devices at the table. We
+            kindly ask to leave all electronic devices on mute in the cloakroom
+            on a dedicated shelf.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="section-menu">
+      <img src="assets/icons/menu.svg" alt="" class="section-icon" />
+      <h2>menu</h2>
+      <article id="menu-description">
+        <p>Our menu features a <b>plant-based fusion</b> kitchen.</p>
+        <p>
+          All <b>yuuyuu</b> restaurants were awarded <b>Michelin stars</b> last
+          year!
+        </p>
+        <p>
+          Our chefs are here to cater to your needs; please notify us about your
+          dietary restrictions. The menu changes according to the season, and we
+          use products only from local farmers to shorten the delivery time from
+          the field to the table as much as possible. The <b>yuuyuu</b>portion
+          sizes are adjusted for individual dining, making it easier to combine
+          and enjoy a few selections from the menu. All items on the menu
+          complement each other.
+        </p>
+      </article>
+      <div class="menu-container">
+        <h3>starters</h3>
+        <div class="menu-subsection">
+          <div class="menu-item">
+            <img src="assets/menu-img/starter1.png" alt="" />
+            <div class="cover-div">
+              <p>
+                <b>Truffle-infused Mushroom Crostini</b>: Indulge in the earthy
+                essence of <b>sautéed wild mushrooms</b> delicately drizzled
+                with <b>white truffle oil</b> atop artisanal crostini, adorned
+                with microgreens for a touch of freshness.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="assets/menu-img/starter2.png" alt="" />
+            <div class="cover-div">
+              <p>
+                <b>Sesame Seared Tofu Sashimi</b>: Experience the harmony of
+                flavors with <b>paper-thin tofu slices</b>, marinated in soy
+                sauce and sesame oil, lightly seared to perfection, served with
+                <b>pickled ginger and wasabi foam</b>.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="assets/menu-img/starter3.png" alt="" />
+            <div class="cover-div">
+              <p>
+                <b>Charred Eggplant Caviar</b>: Revel in the smoky allure of
+                <b>charred eggplant puree</b>, infused with
+                <b>roasted garlic and lemon zest</b>, crowned with delicate
+                avocado mousse and a sprinkle of black sesame seeds.
+              </p>
+            </div>
+          </div>
+        </div>
+        <h3>main</h3>
+        <div class="menu-subsection">
+          <div class="menu-item">
+            <img src="assets/menu-img/dish1.png" alt="" />
+            <div class="cover-div">
+              <p>
+                <b>Ratatouille Roulade</b>: A symphony of seasonal vegetables,
+                expertly rolled and baked to tender perfection, encased in a
+                savory tomato reduction, served with <b>quinoa pilaf</b> and
+                basil-infused olive oil.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="assets/menu-img/dish2.png" alt="" />
+            <div class="cover-div">
+              <p>
+                <b>Crispy Tempeh Katsu</b>: Succulent
+                <b>tempeh cutlets coated in golden panko</b> breadcrumbs, fried
+                to crispy perfection, accompanied by a
+                <b>tangy katsu sauce</b> and a refreshing cucumber salad.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="assets/menu-img/dish3.png" alt="" />
+            <div class="cover-div">
+              <p>
+                <b>Miso-glazed Portobello Steak</b>: Juicy Portobello mushrooms
+                marinated in a <b>savory miso glaze</b>, grilled to caramelized
+                perfection, served atop a bed of <b>wild rice pilaf</b>,
+                garnished with microgreens and toasted sesame seeds.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="assets/menu-img/dish4.png" alt="" />
+            <div class="cover-div">
+              <p>
+                <b>Butternut Squash Risotto</b>: Creamy Arborio rice simmered to
+                perfection with <b>roasted butternut squash</b>, caramelized
+                onions, and a <b>hint of sage</b>, finished with a drizzle of
+                truffle-infused olive oil.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="assets/menu-img/dish5.png" alt="" />
+            <div class="cover-div">
+              <p>
+                <b>Thai Green Curry with Tofu</b>: Fragrant Thai green curry
+                simmered with coconut milk, lemongrass, and Thai basil, brimming
+                with <b>tofu cubes, bamboo shoots, and bell peppers</b>, served
+                with jasmine rice.
+              </p>
+            </div>
+          </div>
+        </div>
+        <h3>desserts</h3>
+        <div class="menu-subsection">
+          <div class="menu-item">
+            <img src="assets/menu-img/dessert1.png" alt="" />
+            <div class="cover-div">
+              <p>
+                <b>Matcha Tiramisu</b> A modern twist on the classic Italian
+                dessert, layers of delicate <b>matcha-infused sponge cake</b>,
+                creamy mascarpone cheese, and dusted with vibrant matcha powder,
+                served with <b>red bean compote</b>.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="assets/menu-img/dessert2.png" alt="" />
+            <div class="cover-div">
+              <p>
+                <b>Chai Spiced Panna Cotta</b>: Silky smooth panna cotta infused
+                with <b>aromatic chai spices</b>, adorned with a drizzle of
+                spiced maple syrup and a sprinkle of toasted almonds, served
+                with <b>poached pear slices</b>.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="assets/menu-img/dessert3.png" alt="" />
+            <div class="cover-div">
+              <p>
+                <b>Chocolate Avocado Mousse</b>: Decadent dark chocolate blended
+                with ripe avocado for a creamy texture, infused with hints of
+                <b>orange zest and espresso</b>, served chilled with a dollop of
+                <b>coconut whipped cream</b> and candied citrus peel.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section-bookings">
+      <img src="assets/icons/open.svg" alt="" class="section-icon" />
+      <h2>bookings</h2>
+      <div class="bookings-container">
+        <fieldset>
+          <form action="/send_mail" method="post">
+            <label for="name">your name</label>
+            <input type="text" name="name" id="name" required />
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" required />
+            <label for="phone">phone number</label>
+            <input type="tel" name="phone" id="phone" />
+            <label for="date">preferred date &amp; time</label>
+            <input type="datetime-local" name="time" id="date" required />
+            <label for="comments">comments</label>
+            <textarea id="comments"></textarea>
+          </form>
+        </fieldset>
+      </div>
+    </section>
+    <section id="section-locations">
+      <img src="assets/icons/location.svg" alt="" class="section-icon" />
+      <h2>yuuyuu locations</h2>
+      <div class="locations-container">
+        <ul>
+          <li>
+            <p class="locations-item"><b>yuuyuu ny</b></p>
+            <p>1291 3rd Ave, New York, NY 10021, United States</p>
+            <a href="http://">Go to map</a>
+          </li>
+          <li>
+            <p class="locations-item"><b>yuuyuu warsaw</b></p>
+            <p>plac Trzech Krzyży 4, Warsaw 00-029, Poland</p>
+            <a href="http://">Go to map</a>
+          </li>
+          <li>
+            <p class="locations-item"><b>yuuyuu naples</b></p>
+            <p>C.so Vittorio Emanuele, 514, 80135 Napoli NA, Italy</p>
+            <a href="http://">Go to map</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer class="footer"><p>Github: NullishKoala</p></footer>
+    <script src="main.js"></script>
+  </body>
+</html>
