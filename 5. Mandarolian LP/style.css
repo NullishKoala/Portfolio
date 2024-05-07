@@ -1,15 +1,33 @@
 .carousel-caption {
-  top: 30%;
+  top: 20%;
 }
-
-.quote-author {
-  margin-bottom: 3rem;
+.custom-icon {
+  height: 50px;
 }
-
+.icon-square {
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+}
 .gradient-background {
   background: linear-gradient(300deg, #e84f17, #e6b31e, #a01f1f);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
+}
+#about .btn {
+  background-color: #e6b31e;
+  border: none;
+}
+.location-icon {
+  height: 30px;
+}
+small {
+  margin-left: 0.5rem;
+}
+
+#copyright {
+  text-decoration: none;
+  color: black;
 }
 
 @keyframes gradient-animation {

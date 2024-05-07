@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Why I ❤️‍🔥 Mandalorian series</title>
+    <link rel="shortcut icon" href="./images/mando.png" type="mando-icon" />
     <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -15,13 +16,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section id="navbar">
+    <!-- Navbar -->
+    <section id="navbar" class="bg-dark">
       <nav
         class="navbar navbar-expand-lg bg-body-tertiary"
         data-bs-theme="dark"
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#"
+            ><img
+              src="./images/mando-white.png"
+              class="custom-icon"
+              alt="mando-icon"
+            />
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -36,10 +44,12 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Watch</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -49,29 +59,29 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Explore
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#about">About</a></li>
+                  <li><a class="dropdown-item" href="#quotes">Quotes</a></li>
                   <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#locations">Locations</a>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link disabled" aria-disabled="true">History</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
               <input
                 class="form-control me-2"
                 type="search"
-                placeholder="Search"
+                placeholder="Type..."
                 aria-label="Search"
               />
-              <button class="btn btn-outline-success" type="submit">
+              <button class="btn btn-outline-secondary" type="submit">
                 Search
               </button>
             </form>
@@ -79,14 +89,15 @@
         </div>
       </nav>
     </section>
-    <section id="hero" class="gradient-background">
-      <div class="container col-xxl-8 px-4 pt-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+    <!-- Home section -->
+    <section id="home" class="gradient-background">
+      <div class="container col-xxl-8 px-4 pt-4">
+        <div class="row flex-lg-row-reverse align-items-center g-5 pt-4">
           <div class="col-10 col-sm-8 col-lg-6">
             <img
               src="./images/TheArmorer-TSWB.webp"
               class="d-block mx-lg-auto img-fluid"
-              alt="Bootstrap Themes"
+              alt="The Armorer"
               width="700"
               height="500"
               loading="lazy"
@@ -94,88 +105,123 @@
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-              Responsive left-aligned hero with image
+              The Armorer
             </h1>
             <p class="lead">
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
+              Let me show you why this is one of my favourite characters from
+              the Mandalorian series.
             </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">
-                <img src="" alt="netflix-logo" />
-                Netflix
+              <button
+                type="button"
+                class="btn btn-outline-light btn-lg px-4 me-md-2"
+              >
+                <img
+                  src="./images/netflix-icon.png"
+                  alt="netflix-logo"
+                  height="25px"
+                  class="pb-1"
+                />
               </button>
-              <button type="button" class="btn btn-outline-dark btn-lg px-4">
-                HBO
+              <button type="button" class="btn btn-outline-light btn-lg px-4">
+                <img
+                  src="./images/hbo-icon.png"
+                  alt="hbo-logo"
+                  height="25px"
+                  class="pb-1"
+                  ;
+                  ;
+                />
               </button>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="features">
+    <!-- About section-->
+    <section id="about">
       <div class="container px-4 py-5" id="hanging-icons">
-        <h2 class="pb-2 border-bottom">Hanging icons</h2>
+        <h2 class="pb-2 border-bottom">About</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div class="col d-flex align-items-start">
             <div
               class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
             >
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#toggles2"></use>
-              </svg>
+              <img
+                src="./images/baby-yoda.png"
+                class="custom-icon"
+                alt="baby-yoda-icon"
+              />
             </div>
             <div>
-              <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+              <h3 class="fs-2 text-body-emphasis">Grogu's armor</h3>
               <p>
-                Paragraph of text beneath the heading to explain the heading.
-                We'll add onto it with another sentence and probably just keep
-                going until we run out of words.
+                She reforged Din Djarin's beskar spear into an armor for Grogu,
+                and recounted the story of the Darksaber and the Night of a
+                Thousand Tears.
               </p>
-              <a href="#" class="btn btn-primary"> Primary button </a>
+              <a
+                href="https://starwars.fandom.com/wiki/The_Armorer"
+                class="btn btn-primary"
+              >
+                Read more
+              </a>
             </div>
           </div>
           <div class="col d-flex align-items-start">
             <div
               class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
             >
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#cpu-fill"></use>
-              </svg>
+              <img
+                src="./images/r2d2.png"
+                class="custom-icon"
+                alt="r2d2-icon"
+              />
             </div>
             <div>
-              <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+              <h3 class="fs-2 text-body-emphasis">Her mission</h3>
               <p>
-                Paragraph of text beneath the heading to explain the heading.
-                We'll add onto it with another sentence and probably just keep
-                going until we run out of words.
+                In the aftermath of an attack on the covert by the Empire, the
+                Armorer made it her mission to salvage what beskar she could
+                from the deceased Mandalorians.
               </p>
-              <a href="#" class="btn btn-primary"> Primary button </a>
+              <a
+                href="https://starwars.fandom.com/wiki/The_Armorer"
+                class="btn btn-primary"
+              >
+                Read more</a
+              >
             </div>
           </div>
           <div class="col d-flex align-items-start">
             <div
               class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
             >
-              <svg class="bi" width="1em" height="1em">
-                <use xlink:href="#tools"></use>
-              </svg>
+              <img
+                src="./images/stormtrooper.png"
+                class="custom-icon"
+                alt="stormtrooper"
+              />
             </div>
             <div>
-              <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+              <h3 class="fs-2 text-body-emphasis">Training Din</h3>
               <p>
-                Paragraph of text beneath the heading to explain the heading.
-                We'll add onto it with another sentence and probably just keep
-                going until we run out of words.
+                She trained Djarin with the Darksaber until they were stopped by
+                Vizsla, who challenged Djarin to a duel, which Djarin eventually
+                won.
               </p>
-              <a href="#" class="btn btn-primary"> Primary button </a>
+              <a
+                href="https://starwars.fandom.com/wiki/The_Armorer"
+                class="btn btn-primary"
+              >
+                Read more</a
+              >
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- Quotes Section -->
     <section id="quotes">
       <div
         id="myCarousel"
@@ -220,7 +266,11 @@
                   ―The Armorer, to the Tribe
                 </p>
                 <p>
-                  <a class="btn btn-outline-light" href="#">Get more</a>
+                  <a
+                    class="btn btn-outline-light"
+                    href="https://starwars.fandom.com/wiki/The_Armorer"
+                    >Get more</a
+                  >
                 </p>
               </div>
             </div>
@@ -241,7 +291,11 @@
                   ―The Armorer, to Din Djarin, regarding beskar
                 </p>
                 <p>
-                  <a class="btn btn-outline-light" href="#">Get more</a>
+                  <a
+                    class="btn btn-outline-light"
+                    href="https://starwars.fandom.com/wiki/The_Armorer"
+                    >Get more</a
+                  >
                 </p>
               </div>
             </div>
@@ -260,7 +314,11 @@
                 </h1>
                 <p class="quote-author">―The Armorer to Din Djarin</p>
                 <p>
-                  <a class="btn btn-outline-light" href="#">Get more</a>
+                  <a
+                    class="btn btn-outline-light"
+                    href="https://starwars.fandom.com/wiki/The_Armorer"
+                    >Get more</a
+                  >
                 </p>
               </div>
             </div>
@@ -286,26 +344,26 @@
         </button>
       </div>
     </section>
+    <!-- Locations section -->
     <section id="locations">
       <div class="container px-4 py-5" id="custom-cards">
-        <h2 class="pb-2 border-bottom">Custom cards</h2>
-
+        <h2 class="pb-2 border-bottom">Locations</h2>
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
           <div class="col">
             <div
               class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-              style="background-image: url('unsplash-photo-1.jpg')"
+              style="background-image: url(./images/mandalore.webp)"
             >
               <div
                 class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
               >
                 <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                  Short title, long jacket
+                  Planet of Mandalore
                 </h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
                     <img
-                      src="https://github.com/twbs.png"
+                      src="./images/mando-white.png"
                       alt="Bootstrap"
                       width="32"
                       height="32"
@@ -313,15 +371,19 @@
                     />
                   </li>
                   <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#geo-fill"></use>
-                    </svg>
-                    <small>Earth</small>
+                    <img
+                      class="location-icon"
+                      src="./images/icons8-location.png"
+                      alt="location-icon"
+                    />
+                    <small>Mandalore</small>
                   </li>
                   <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#calendar3"></use>
-                    </svg>
+                    <img
+                      class="location-icon"
+                      src="./images/icons8-calendar.png"
+                      alt="calendar-icon"
+                    />
                     <small>3d</small>
                   </li>
                 </ul>
@@ -332,34 +394,39 @@
           <div class="col">
             <div
               class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-              style="background-image: url('unsplash-photo-2.jpg')"
+              style="background-image: url('./images/navarro-forge.png')"
             >
               <div
                 class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
               >
                 <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                  Much longer title that wraps to multiple lines
+                  Forge at Nevarro
                 </h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
                     <img
-                      src="https://github.com/twbs.png"
-                      alt="Bootstrap"
+                      src="./images/mando-white.png"
+                      alt="mando-icon"
                       width="32"
                       height="32"
                       class="rounded-circle border border-white"
                     />
                   </li>
                   <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#geo-fill"></use>
-                    </svg>
-                    <small>Pakistan</small>
+                    <img
+                      class="location-icon"
+                      src="./images/icons8-location.png"
+                      alt="location-icon"
+                    />
+                    <small>Nevarro</small>
                   </li>
                   <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#calendar3"></use>
-                    </svg>
+                    <img
+                      class="location-icon"
+                      src="./images/icons8-calendar.png"
+                      alt="calendar-icon"
+                    />
+
                     <small>4d</small>
                   </li>
                 </ul>
@@ -370,32 +437,38 @@
           <div class="col">
             <div
               class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-              style="background-image: url('unsplash-photo-3.jpg')"
+              style="
+                background-image: url('./images/living-water-mandalore.png');
+              "
             >
               <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                 <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                  Another longer title belongs here
+                  Living Waters
                 </h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
                     <img
-                      src="https://github.com/twbs.png"
-                      alt="Bootstrap"
+                      src="./images/mando-white.png"
+                      alt="mando-icon-white"
                       width="32"
                       height="32"
                       class="rounded-circle border border-white"
                     />
                   </li>
                   <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#geo-fill"></use>
-                    </svg>
-                    <small>California</small>
+                    <img
+                      class="location-icon"
+                      src="./images/icons8-location.png"
+                      alt="location-icon"
+                    />
+                    <small>Mandalore</small>
                   </li>
                   <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#calendar3"></use>
-                    </svg>
+                    <img
+                      class="location-icon"
+                      src="./images/icons8-calendar.png"
+                      alt="calendar-icon"
+                    />
                     <small>5d</small>
                   </li>
                 </ul>
@@ -405,89 +478,46 @@
         </div>
       </div>
     </section>
-    <section id="footer">
+    <!-- Footer Section -->
+    <section id="footer" class="gradient-background">
       <div class="container">
-        <footer class="py-5">
-          <div class="row">
-            <div class="col-6 col-md-2 mb-3">
+        <footer class="pt-5">
+          <div class="row justify-content-between">
+            <div class="col-3 col-md-2 mb-3">
               <h5>Section</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+                  <a href="#home" class="nav-link p-0 text-body-secondary"
+                    >Home</a
+                  >
                 </li>
                 <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-body-secondary"
-                    >Features</a
+                  <a href="#about" class="nav-link p-0 text-body-secondary"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#quotes" class="nav-link p-0 text-body-secondary"
+                    >Quotes</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#locations" class="nav-link p-0 text-body-secondary"
+                    >Locations</a
                   >
                 </li>
                 <li class="nav-item mb-2">
                   <a href="#" class="nav-link p-0 text-body-secondary"
-                    >Pricing</a
+                    >History</a
                   >
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-body-secondary">About</a>
                 </li>
               </ul>
             </div>
 
-            <div class="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-body-secondary"
-                    >Features</a
-                  >
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-body-secondary"
-                    >Pricing</a
-                  >
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-body-secondary">About</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-body-secondary"
-                    >Features</a
-                  >
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-body-secondary"
-                    >Pricing</a
-                  >
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-body-secondary">About</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-md-5 offset-md-1 mb-3">
+            <div class="col-4 col-md-5 offset-md-1 mb-3 me-0">
               <form>
                 <h5>Subscribe to our newsletter</h5>
-                <p>Monthly digest of what's new and exciting from us.</p>
+                <p>Monthly digest of what's new and exciting.</p>
                 <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                   <label for="newsletter1" class="visually-hidden"
                     >Email address</label
@@ -498,38 +528,18 @@
                     class="form-control"
                     placeholder="Email address"
                   />
-                  <button class="btn btn-primary" type="button">
-                    Subscribe
-                  </button>
+                  <button class="btn btn-dark" type="button">Subscribe</button>
                 </div>
               </form>
             </div>
           </div>
 
           <div
-            class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+            class="d-flex flex-column flex-sm-row justify-content-between pt-4 mt-4 border-top"
           >
-            <p>© 2024 Company, Inc. All rights reserved.</p>
-            <ul class="list-unstyled d-flex">
-              <li class="ms-3">
-                <a class="link-body-emphasis" href="#"
-                  ><svg class="bi" width="24" height="24">
-                    <use xlink:href="#twitter"></use></svg
-                ></a>
-              </li>
-              <li class="ms-3">
-                <a class="link-body-emphasis" href="#"
-                  ><svg class="bi" width="24" height="24">
-                    <use xlink:href="#instagram"></use></svg
-                ></a>
-              </li>
-              <li class="ms-3">
-                <a class="link-body-emphasis" href="#"
-                  ><svg class="bi" width="24" height="24">
-                    <use xlink:href="#facebook"></use></svg
-                ></a>
-              </li>
-            </ul>
+            <a href="https://github.com/NullishKoala" id="copyright"
+              ><p>©Nullish Koala</p></a
+            >
           </div>
         </footer>
       </div>
