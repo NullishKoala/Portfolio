@@ -7,4 +7,4 @@
 Here's a screenshot:
 ![Pick A Pickle](https://github.com/NullishKoala/Portfolio/blob/master/2.%20Pick%20a%20Pickle/PickAPickle.png)
 
-A videoclip of how it works is ![here](https://github.com/NullishKoala/Portfolio/blob/master/2.%20Pick%20a%20Pickle/PickAPickle.mp4).
+A videoclip of how it works is [here](https://github.com/NullishKoala/Portfolio/blob/master/2.%20Pick%20a%20Pickle/PickAPickle.mp4).
