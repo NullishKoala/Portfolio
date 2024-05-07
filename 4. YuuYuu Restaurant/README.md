@@ -16,8 +16,8 @@ ChatGPT for text content,
 
 Midjourney for menu images,
 
-(free icons)[https://www.reshot.com/free-svg-icons/item/location-M5CGAKDWSU/],
+[free icons from Reshot](https://www.reshot.com/free-svg-icons/item/location-M5CGAKDWSU/),
 
-(HEX to filter color converter)[https://codepen.io/sosuke/pen/Pjoqqp],
+[HEX to filter color converter](https://codepen.io/sosuke/pen/Pjoqqp),
 
 Unsplash for images.
