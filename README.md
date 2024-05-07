@@ -6,7 +6,7 @@ I use vanilla JS, HTML, CSS, Bootstrap, often design my own graphics, write my o
 
 
 5. Mandalorian landing page
-6. 
+   
 3 days late, but May the 4th be with you! To celebrate, I've created this landing page to honor one of my favourite characters from the SW universe -The Armorer 🛠️❤️‍🔥
 
 🌠 Theme: Star Wars, The Mandalorian series;
