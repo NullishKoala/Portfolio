@@ -5,7 +5,7 @@
 This project is a half-way challenge from [this brilliant Udemy course](https://www.udemy.com/course/the-complete-web-development-bootcamp/?couponCode=LEADERSALE24A). The game concept is not my original idea, the solution steps and the starting html and css files has been provided in the course.  
 However, significant portions of the JavaScript code were written independently. The task wasn't easy, but with some advice concerning final steps I have managed to finish this project.
 
-[Here's a screenshot:](https://github.com/NullishKoala/Portfolio/blob/master/Simon%20Game%20Challenge/Simon%20Game.png)
+![Here's a screenshot:](https://github.com/NullishKoala/Portfolio/blob/master/Simon%20Game%20Challenge/Simon%20Game.png)
 
 ## Challenges
 
